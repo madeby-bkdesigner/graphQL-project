@@ -1,0 +1,122 @@
+.books {
+  .container {
+    .main {
+      padding: 10px 0;
+      background-color: #f4f4f4;
+      h1 {
+        text-align: center;
+        text-transform: capitalize;
+        color: rgb(73, 73, 73);
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        li {
+          list-style: none;
+          text-transform: capitalize;
+          margin: 20px 0;
+          padding: 10px;
+          border: 1px solid purple;
+          text-align: center;
+          color: rgb(13, 95, 88);
+          box-shadow: 0px 0px 2px #000;
+          font-weight: 700;
+          cursor: pointer;
+        }
+      }
+    }
+    .aside {
+      background-color: rgb(0, 48, 63);
+      color: rgb(14, 211, 195);
+      padding: 10px 25px;
+      h1 {
+        text-align: center;
+      }
+      .book__info__div {
+        margin-top: 20px;
+        text-align: center;
+        span {
+          text-transform: capitalize;
+        }
+        .author {
+          font-size: 18px;
+        }
+        .book__info {
+          margin-top: 10px;
+          padding: 0 10px;
+          p {
+            text-transform: capitalize;
+            margin: 7px 0;
+          }
+        }
+        .span__title {
+          color: rgb(8, 156, 144);
+          text-transform: capitalize;
+        }
+        .remove__btn {
+          font-size: 12px;
+          padding: 4px 2px;
+          text-transform: capitalize;
+          color: grey;
+          margin: 10px 0;
+          cursor: pointer;
+        }
+        .about__author {
+          margin-top: 20px;
+          h2 {
+            text-transform: capitalize;
+            color: rgb(18, 119, 111);
+          }
+          .content {
+            margin: 5px 0 10px;
+            p {
+              text-transform: capitalize;
+              margin: 5px 0;
+              span {
+                font-size: 16px;
+              }
+            }
+            .other__books {
+              margin-top: 10px;
+              h3 {
+                color: rgb(18, 119, 111);
+                text-transform: capitalize;
+                text-decoration: underline;
+              }
+            }
+            li {
+              text-transform: capitalize;
+              margin: 10px 0;
+              .genre {
+                font-size: 12px;
+                color: rgb(18, 119, 111);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .books {
+    .container {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .books {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+}

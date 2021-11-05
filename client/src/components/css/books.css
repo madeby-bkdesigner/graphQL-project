@@ -1,0 +1,148 @@
+.books .container .main {
+  padding: 10px 0;
+  background-color: #f4f4f4;
+}
+
+.books .container .main h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #494949;
+}
+
+.books .container .main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.books .container .main ul li {
+  list-style: none;
+  text-transform: capitalize;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid purple;
+  text-align: center;
+  color: #0d5f58;
+  -webkit-box-shadow: 0px 0px 2px #000;
+          box-shadow: 0px 0px 2px #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.books .container .aside {
+  background-color: #00303f;
+  color: #0ed3c3;
+  padding: 10px 25px;
+}
+
+.books .container .aside h1 {
+  text-align: center;
+}
+
+.books .container .aside .book__info__div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.books .container .aside .book__info__div span {
+  text-transform: capitalize;
+}
+
+.books .container .aside .book__info__div .author {
+  font-size: 18px;
+}
+
+.books .container .aside .book__info__div .book__info {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.books .container .aside .book__info__div .book__info p {
+  text-transform: capitalize;
+  margin: 7px 0;
+}
+
+.books .container .aside .book__info__div .span__title {
+  color: #089c90;
+  text-transform: capitalize;
+}
+
+.books .container .aside .book__info__div .remove__btn {
+  font-size: 12px;
+  padding: 4px 2px;
+  text-transform: capitalize;
+  color: grey;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.books .container .aside .book__info__div .about__author {
+  margin-top: 20px;
+}
+
+.books .container .aside .book__info__div .about__author h2 {
+  text-transform: capitalize;
+  color: #12776f;
+}
+
+.books .container .aside .book__info__div .about__author .content {
+  margin: 5px 0 10px;
+}
+
+.books .container .aside .book__info__div .about__author .content p {
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.books .container .aside .book__info__div .about__author .content p span {
+  font-size: 16px;
+}
+
+.books .container .aside .book__info__div .about__author .content .other__books {
+  margin-top: 10px;
+}
+
+.books .container .aside .book__info__div .about__author .content .other__books h3 {
+  color: #12776f;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.books .container .aside .book__info__div .about__author .content li {
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+.books .container .aside .book__info__div .about__author .content li .genre {
+  font-size: 12px;
+  color: #12776f;
+}
+
+@media screen and (min-width: 768px) {
+  .books .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .books {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+}
+/*# sourceMappingURL=books.css.map */

@@ -1,0 +1,52 @@
+// Dummy data
+
+const books = [
+  {
+    name: 'the wind',
+    genre: 'fantasy',
+    id: '1',
+    authId: '1',
+  },
+  {
+    name: 'empire fallen',
+    genre: 'Action',
+    id: '2',
+    authId: '2',
+  },
+  {
+    name: 'Horror granny',
+    genre: 'fiction',
+    id: '3',
+    authId: '3',
+  },
+  {
+    name: 'Dondgen ',
+    genre: 'Sci-fi',
+    id: '4',
+    authId: '3',
+  },
+  {
+    name: 'Magic Mike',
+    genre: 'fantasy',
+    id: '5',
+    authId: '1',
+  },
+];
+
+const authors = [
+  {
+    name: 'Ahmed Kalif',
+    age: 34,
+    id: '1',
+  },
+  {
+    name: 'Mike James',
+    age: 22,
+    id: '2',
+  },
+  {
+    name: 'Minna Khan',
+    age: 27,
+    id: '3',
+  },
+];

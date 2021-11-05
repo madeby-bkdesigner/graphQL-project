@@ -1,0 +1,52 @@
+.authors {
+  margin-top: 30px;
+  .container {
+    background-color: #faf9e8;
+    padding: 10px;
+    h1 {
+      font-weight: 600;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    form {
+      .form__group {
+        display: flex;
+        flex-direction: column;
+        label {
+          text-transform: capitalize;
+          margin: 10px 0 3px;
+        }
+        input {
+          padding: 10px 7px;
+          border-radius: 0px;
+          border: 1px solid #000000;
+          outline: none;
+        }
+        select {
+          padding: 10px 7px;
+          text-transform: capitalize;
+        }
+      }
+      .btn {
+        margin-top: 10px;
+        width: 100%;
+        button {
+          width: 50%;
+          padding: 10px;
+          text-transform: capitalize;
+          background-color: rgb(104, 4, 54);
+          color: #f4f4f4;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .authors {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+}
