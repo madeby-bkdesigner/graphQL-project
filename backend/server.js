@@ -7,8 +7,9 @@ const app = express();
 const schema = require('./schema/schema');
 
 const uri = process.env.GQL_DATABASE;
-
-mongoose.connect(uri, {
+const dockerUri = "mongodb://admin:password@localhost:27017"
+const dockerUriLink = "mongodb://admin:password@mongodb"
+mongoose.connect(dockerUriLink, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -27,7 +28,7 @@ app.use(
   })
 );
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 app.listen(port, () => {
   console.log(`Server started on ${port}`);

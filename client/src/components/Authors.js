@@ -75,6 +75,7 @@ function Authors() {
               onChange={(e) => setAuthorId(e.target.value)}
               value={authorId}
               name="author"
+              required
             >
               <option>Select author</option>
               {authors.map((author) => (
